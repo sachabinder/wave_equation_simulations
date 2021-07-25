@@ -133,10 +133,11 @@ if loop_exec:
     #boundary conditions
     if bound_cond == 1:
         #Dirichlet bound cond
-        for i in [0, N_y]:
-            for j in [0, N_y]:
-                if i == 0 or i == N_x or j == 0 or j == N_y:
-                    u_np1[i,j] = 0
+        u_np1[0,:] = 0
+        u_np1[-1,:] = 0
+        u_np1[:,0] = 0
+        u_np1[:,-1] = 0
+
 
 
     elif bound_cond == 2:
@@ -200,10 +201,10 @@ if loop_exec:
         #bound conditions
         if bound_cond == 1:
             #Dirichlet bound cond
-            for i in [0, N_y]:
-                for j in [0, N_y]:
-                    if i == 0 or i == N_x or j == 0 or j == N_y:
-                        u_np1[i,j] = 0
+            u_np1[0,:] = 0
+            u_np1[-1,:] = 0
+            u_np1[:,0] = 0
+            u_np1[:,-1] = 0
             
         
         elif bound_cond == 2:
