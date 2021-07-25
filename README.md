@@ -23,5 +23,5 @@ The script [1D_WAVE-EQ_variable-velocity.py](https://github.com/sachabinder/wave
 The script [2D_WAVE-EQ_variable-velocity.py](https://github.com/sachabinder/wave_equations_simulation/blob/main/2D_WAVE-EQ_variable-velocity.py) is a two-dimensional generalisation of what was presented previously :
 <p align="center">
     <img src="2D_simulation_demo.gif" alt="2D_cstspeed_Neumann" width="40%"></a>
-        <img src="2D_simulation_demo_flat.gif" alt="2D_cstspeed_Neumann_flat" width="53.5%"></a>
+    <img src="2D_simulation_demo_flat.gif" alt="2D_cstspeed_Neumann_flat" width="53.5%"></a>
 </p>
